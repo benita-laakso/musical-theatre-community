@@ -11,10 +11,10 @@ function App() {
      
       <div className ="center">
 <div>
-<a className="other-link"><h1>Shows</h1></a>
-<a className="other-link"><h2>Musical</h2></a>
-<a className="other-link"><h2>Conserts</h2></a>
-<a className="other-link"><h2>Circus</h2></a>
+<a  href="/" className="other-link"><h1>Shows</h1></a>
+<a href="/"className="other-link"><h2>Musical</h2></a>
+<a href="/"className="other-link"><h2>Conserts</h2></a>
+<a href="/"className="other-link"><h2>Circus</h2></a>
 </div>
     
   
