@@ -14,8 +14,8 @@ function App() {
     </div>
      
       <div className ="center">
-<div>
-<a  href="/" className="other-link"><h1>Shows</h1></a>
+<div className ="side">
+<h1>Shows</h1>
 <a href="/"className="other-link"><h2>Musical</h2></a>
 <a href="/"className="other-link"><h2>Conserts</h2></a>
 <a href="/"className="other-link"><h2>Circus</h2></a>
@@ -28,6 +28,8 @@ function App() {
       <div>
       <div className="main">
       <h1>Musical theatre Community</h1>
+     
+      <p><i>Welcome to begin your artistic journey I hope it will last for ever</i></p>
       <p>
       In the heart of Helsinki right by the Töölö bay , you will find an enchanting theatre community. The people who live there come from around the globe, sharing their passion for music, theatre and dance.
     </p>
@@ -42,6 +44,7 @@ function App() {
     rel="noopener noreferrer"> I want to audition for a project </a>
     
     <div >
+    <div className="top-space"></div>
     <a className="other-link"
     href="https://benitalaakso.com"
     target="_blank"
@@ -56,6 +59,15 @@ function App() {
 
 
     </div>
+    <footer>
+    <div className = "contacts">
+    <h3>Musical theatre Comunity</h3>
+    <p>musical-theatre-comunity@contact.com</p>
+    <p>
+    Sandbeachroad 52 A Tölö</p>
+    <p> 00222 Helsinki Finland</p></div>
+    </footer>
+
     </div>
   );
 }

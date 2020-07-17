@@ -18,7 +18,10 @@ html{
     padding: 0;
 
 }
+.side{padding-right: 300px;
 
+}
+h2{font-size: 1.2em;}
 .hero .background-image {
   width: 100%;
   position: absolute;
@@ -42,12 +45,13 @@ html{
 .center{ display: flex;
   width:80%;
 padding-left: 20px;
-justify-content: center;}
+justify-content: center;
+margin-top:50px;}
 
 div {
   display: block;
 }
-.main{ padding-left: 150px;;
+.main{ padding-bottom:100px;
 }
 
 
@@ -62,6 +66,19 @@ div {
       .top-space{
         margin-top: 1rem;
       }
+      .theme-color{
+        color: #5b2115;
+      }
+
+      footer{padding:40px 0px;
+        
+        width:100%;
+        background-color:  #5b2115;}
+        .contacts{color:wheat;}
+
+        .contacts{
+          text-align: center;
+        }
 /*
 @keyframes App-logo-spin {
   from {
