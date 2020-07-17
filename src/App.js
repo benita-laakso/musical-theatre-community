@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import jag from './images/ensamble.jpg';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
     <div className="hero">
 
     <div className ="background-image "></div>
+    <div>
+    <img src={jag} alt="logo" />
+    </div>
     </div>
      
       <div className ="center">
