@@ -1,3 +1,13 @@
+
+p, h1, h2,h3{  
+  color: rgb(240, 204, 160);
+          filter: brightness(45%);
+}
+.musical-theatre-img {
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+}
 .App{
   width: 100%;
 }
@@ -5,62 +15,68 @@ html{
   font-size: 20px;
   line-height: 1.5em;;
 }
-.hero{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    text-shadow: 1px 1px 2px #000;
-    justify-content: center;
-    text-align: center;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-
-}
+{/*
 .side{padding-right: 300px;
-
-}
+}*/}
 h2{font-size: 1.2em;}
-.hero .background-image {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  
-  height: 100vh;
-  background-size: cover;
- /* z-index: -1;*/
- background-image: url(/images/ensamble.jpg);
-  background-position: center;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+
+.name{z-index: 20;
+ font-size: 60px;
+ line-height: 1em;
 }
+
 *, :after, :before {
   box-sizing: border-box;
 }
+.side{
+margin-top: 1.5rem;
+margin-left: 50px;}
+.discription{
+  display: flex;
+}
 
-
+/*.center unused*/
 .center{ display: flex;
-  width:80%;
-padding-left: 20px;
+  flex-direction: column;
+  /*
+  background-color: violet;
+  */width:70%;
+margin:0 auto;
 justify-content: center;
-margin-top:50px;}
+margin-top:50px;
+}
 
-div {
+.center_center{z-index: 200;
+  position: absolute;
+  top: 300px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width:80%;
+  margin:0 auto;
+justify-content: center;
+margin-top:50px;
+}
+.center_center p{
+  font-size: 30px;
+}
+.center_center h1{
+  font-size: 80px;
+color:turquoise;
+font-weight: 700;
+}
+div{
   display: block;
 }
-.main{ padding-bottom:100px;
+.main{ 
+  display:flex;
+  padding-bottom:50px;
 }
-
-
-
-
 .App-link {
   color: white;
 }
 .other-link{ color: #5b2115;
+  color: rgb(240, 204, 160);
         font-weight: 700;
       font-size: 1.2rem;}
       .top-space{
@@ -73,22 +89,44 @@ div {
       footer{padding:40px 0px;
         
         width:100%;
-        background-color:  #5b2115;}
-        .contacts{color:wheat;}
+       /* background-color: rgb(240, 204, 160);
+        background-color: rgb(216, 148, 132);
+   */
+  }
 
-        .contacts{
+
+.contacts{
           text-align: center;
+          
         }
-/*
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    
+        .intro-grid{
+          /* background-color: lightseagreen;*/
+           margin: 0 auto;
+           display:grid;
+           grid-template-columns: 2fr 1fr;
+           grid-template-rows: 1fr;
+           grid-gap:3%;
+           width:70vw;
+         padding: 50px 0px;}
+.gallery{
+ /* background-color: lightseagreen;*/
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap:3%;
+  width:70vw;
+border-top:1px solid rgb(240, 204, 160);
+padding-top: 100px;
 }
-*/
+.item{
+         /*
+          background-color: lightblue;*/}
+.gallery-pik{
+            width:90%;
+            border-radius: 8px;
+          }
 /*
 
 .flex{display:flex;
@@ -99,3 +137,60 @@ div {
       .top-space{
         margin-top: 1rem;
       }*/
+
+.hero{
+  position: relative;
+}
+
+.hero .text-cont{
+  position: absolute;
+  top: 25%;
+  left: 57%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px black;
+  letter-spacing: 1.5px;
+  
+}
+.heading-intro{/*
+  color:rgb(40, 57, 32);
+text-align: center;
+  font-size: 100px;
+line-height: 1em;
+margin:0px ;
+border: 10px solid goldenrod;
+*/ 
+
+text-align: center;
+font-size: 500%;
+filter: brightness(100%);
+}
+
+.intro-p{
+  /*font-style: italic;*/
+  font-weight: bold;
+  font-size: 2em;
+ /*font-size: 40px;*/
+ text-align: center;
+ /*color:rgb(40, 57, 32);*/
+ 
+ filter: brightness(100%);
+}
+
+.main_text p{width:50vw;}
+/*.main-img{align-items: flex-end;
+}*/
+.gallery-pik-pok{border-radius: 8px;}
+/*.item-4{filter: invert(20%);}*/
+/*Test code*/
+img {
+  /* at least fill the parent */
+  min-width: 100%;
+  /* don't exceed the parent */
+  max-width: 100%;
+  /*
+  object-fit: cover;
+  didn´t make img 100%
+  */
+}
+
+

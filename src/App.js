@@ -1,74 +1,115 @@
 import React from 'react';
 import './App.css';
 import jag from './images/ensamble.jpg';
+import theatreAmbasader from './images/theater-ambasader.jpg';
+import dance from './images/dance.jpg';
+import consert from './images/consert.jpg';
+import composed from './images/composed.jpg';
+import circus from './images/circus.jpg';
+import shadow from './images/shadow-music.jpg';
+import sidney from './images/sidney.jpg';
+import grand from './images/grand.jpg';
+import danceStreet from './images/danceStreet.jpg';
+import italy from './images/italy.jpg';
+import cello from './images/cello.jpg';
+import bahamas from './images/Bahamas.jpg';
+import model from './images/model.jpg';
+import castle from './images/castle-istland.jpg';
+import cottage from './images/cottage.jpg';
+
+import trapeze from './images/shangyou-shi-U6mlid4nor8-unsplash.jpg';
+
+import performances from './images/tim-gouw-tYpp-eIZH44-unsplash.jpg';
+
+import acro from './images/alice-naar-c_c5hd-9iwY-unsplash.jpg';
+import sunflower from './images/blake-cheek-zwSMv0jY-1o-unsplash.jpg';
+
+import castle_2 from './images/artem-sapegin-XGDBdSQ70O0-unsplash.jpg'; 
+
+import castle_3 from './images/colin-watts-3blV4-86aUo-unsplash.jpg';
+
+import dance_1 from './images/diego-rosa-Yyk4OmVJAyE-unsplash.jpg';
+import dance_2 from './images/andrei-lasc-BcbSYcn9tJg-unsplash-cut.jpg';
+
 
 function App() {
   return (
     <div className="App">
+    
     <div className="hero">
-
-    <div className ="background-image "></div>
-    <div>
-    <img src={jag} alt="logo" />
-    </div>
-    </div>
-     
-      <div className ="center">
-<div className ="side">
-<h1>Shows</h1>
-<a href="/"className="other-link"><h2>Musical</h2></a>
-<a href="/"className="other-link"><h2>Conserts</h2></a>
-<a href="/"className="other-link"><h2>Circus</h2></a>
-</div>
+      <img className="musical-theatre-img"src={performances} alt="musical theatre picature" />
+      <div className="text-cont">
     
-  
-       
-      
-      
-      <div>
-      <div className="main">
-      <h1>Musical theatre Community</h1>
-     
-      <p><i>Welcome to begin your artistic journey I hope it will last for ever</i></p>
-      <p>
-      In the heart of Helsinki right by the Töölö bay , you will find an enchanting theatre community. The people who live there come from around the globe, sharing their passion for music, theatre and dance.
-    </p>
-      <h1>About</h1>
-      <p>Welcome to begin your artistic journey I hope it will last for ever</p>
-      <p> The group collaborates on full blown musicals and large ensemble performances. The artist also perform in smaller constellations of 1-6 performers. The group tours around the word in different constellation always returning to the home base for rehearsals of the yearly Musical. The yearly musical is a unique event as the performers com from across the globe to perform.  When ever one of the artist travels abroad to perform there is space available for any performing artist from around the globe to apply. The performer simply submits their application telling the group what their main profession is dancer, singer, actress, circus artist or multi performer like the funder of Musical Theatre Community is.  All dancers, singers, actors and other performing artist are always welcome to submit their application to participate in one of the upcoming shows or to live in the community whilst they preform or tour in the greater area of Helsinki. Please understand that this is the home of many Performing artists and this is why we do very personal interviews and auditions. We are looking for people who are like minded and passionate about the Performing arts. Even though we have large audiences and do tours world wide octane heart of the community is passion for the arts and a sense of togetherness. We welcome people of all ages and backgrounds, how ever we only consider people who are passionate about our unique concept and able to commit 100% during their stay with us.   </p>
-      
-      
-    <a className="other-link"
-    href="https://benitalaakso.com"
-    target="_blank"
-    rel="noopener noreferrer"> I want to audition for a project </a>
-    
-    <div >
-    <div className="top-space"></div>
-    <a className="other-link"
-    href="https://benitalaakso.com"
-    target="_blank"
-    rel="noopener noreferrer"> I want to audition for a project </a>
-    
-    </div>
-    </div>
-  
-    
-  
+      <h1 className="heading-intro">Cosmochimica</h1>
+      {/**/}
+      <p className="intro-p">Performing arts Community</p>
       </div>
-
-
     </div>
+    <div className="item intro-grid">  
+    <div className="item intro_item">
+  
+    <p><b>
+    Cosmochimica is a group of multi talented Performing artis.
+          
+
+          </b> </p>
+         
+    <p>The group collaborates on a full blown newly written musical every year as well as other ensemble performances. Cosmochimica tours around the word in different constellation always returning to the home base for rehearsals of the yearly Musical. The yearly musical is a unique event as it always is a world premier. The performers at Cosmochimica that come from around the globe, sharing their passion for music, theatre and dance. </p>
+      
+   
+    {/*
+       <img className="gallery-pik"src={theatreAmbasader}></img>
+   */} </div>
+    <div className="item item-intro">
+       <img className="gallery-pik"src={dance_2}></img>
+    </div>
+    </div>
+    <div className="gallery">
+    
+     
+       <div className="item item-1">
+
+       {/*<img className="gallery-pik"src={consert}></img>
+       */}
+          <img className="gallery-pik"src={acro}></img>
+       </div>
+       <div className="item item-2">
+       <img className="gallery-pik"src={castle_2}></img>
+    </div>
+
+    {/*Test*/} <div className="item item-3">
+
+       {/*<img className="gallery-pik"src={consert}></img>
+       */}
+       <img className="gallery-pik"src={cottage}></img>
+       </div>
+       <div className="item item-4">
+       <img className="gallery-pik"src={performances}></img>
+    </div>
+    
+   
+    </div>
+
+    {/*
+    <div className="background-image">
+       <img className=".musical-theatre-img"src={sidney}>
+       </img>
+    </div>
+*/}
+   {/*<img className=".musical-theatre-img"src={jag} alt="musical theatre picature" />*/}
     <footer>
-    <div className = "contacts">
-    <h3>Musical theatre Comunity</h3>
-    <p>musical-theatre-comunity@contact.com</p>
-    <p>
-    Sandbeachroad 52 A Tölö</p>
-    <p> 00222 Helsinki Finland</p></div>
-    </footer>
+       <div className = "contacts">
 
-    </div>
+          <h3>Cosmochimica</h3>
+          <p>Performing arts Community</p>
+          <p>cosmochimica@contact.com</p>
+          <p>
+          </p>
+          <p> Adress and   postcode</p>
+  <p>Phone number</p>
+          </div>
+    </footer>
+ </div>
   );
 }
 
