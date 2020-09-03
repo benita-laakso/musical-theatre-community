@@ -1,35 +1,35 @@
 import React from 'react';
 import './App.css';
-import jag from './images/ensamble.jpg';
-import theatreAmbasader from './images/theater-ambasader.jpg';
-import dance from './images/dance.jpg';
-import consert from './images/consert.jpg';
-import composed from './images/composed.jpg';
-import circus from './images/circus.jpg';
-import shadow from './images/shadow-music.jpg';
-import sidney from './images/sidney.jpg';
-import grand from './images/grand.jpg';
-import danceStreet from './images/danceStreet.jpg';
-import italy from './images/italy.jpg';
-import cello from './images/cello.jpg';
-import bahamas from './images/Bahamas.jpg';
-import model from './images/model.jpg';
-import castle from './images/castle-istland.jpg';
+// import jag from './images/ensamble.jpg';
+// import theatreAmbasader from './images/theater-ambasader.jpg';
+// import dance from './images/dance.jpg';
+// import consert from './images/consert.jpg';
+// import composed from './images/composed.jpg';
+// import circus from './images/circus.jpg';
+// import shadow from './images/shadow-music.jpg';
+// import sidney from './images/sidney.jpg';
+// import grand from './images/grand.jpg';
+// import danceStreet from './images/danceStreet.jpg';
+// import italy from './images/italy.jpg';
+// import cello from './images/cello.jpg';
+// import bahamas from './images/Bahamas.jpg';
+// import model from './images/model.jpg';
+// import castle from './images/castle-istland.jpg';
 import cottage from './images/cottage.jpg';
 
-import trapeze from './images/shangyou-shi-U6mlid4nor8-unsplash.jpg';
+// import trapeze from './images/shangyou-shi-U6mlid4nor8-unsplash.jpg';
 
 import performances from './images/tim-gouw-tYpp-eIZH44-unsplash.jpg';
 
 import acro from './images/alice-naar-c_c5hd-9iwY-unsplash.jpg';
-import sunflower from './images/blake-cheek-zwSMv0jY-1o-unsplash.jpg';
+// import sunflower from './images/blake-cheek-zwSMv0jY-1o-unsplash.jpg';
 
 import castle_2 from './images/artem-sapegin-XGDBdSQ70O0-unsplash.jpg'; 
 
-import castle_3 from './images/colin-watts-3blV4-86aUo-unsplash.jpg';
+// import castle_3 from './images/colin-watts-3blV4-86aUo-unsplash.jpg';
 
-import dance_1 from './images/diego-rosa-Yyk4OmVJAyE-unsplash.jpg';
-import dance_2 from './images/andrei-lasc-BcbSYcn9tJg-unsplash-cut.jpg';
+// import dance_1 from './images/diego-rosa-Yyk4OmVJAyE-unsplash.jpg';
+// import dance_2 from './images/andrei-lasc-BcbSYcn9tJg-unsplash-cut.jpg';
 import theresia from './images/adriano-goncalves-IeHLttCrsXE-unsplash.jpg';
 
 function App() {
@@ -92,7 +92,7 @@ function App() {
    
    </div>
    <div className="item item-intro intro-img">
-       <img className="gallery-pik brighter"src={theresia}></img>
+       <img className="gallery-pik brighter" src={theresia} alt="opera singer"></img>
     </div>
     </div>
     <div className="shows-heading">
@@ -112,7 +112,7 @@ She created the pice because she felt that the citizen in her home town in Orlan
 “Inner calm and trust in life is my biggest survival tool in any trying life surcomstances. This is a state that I have learned to arrive at during my visits to the Temples in India. I wish to inspire and encourage others to to find this stat, this is why I created the pice tranquility”  New York times May 2020. Tranquility is an oapen air interactive performance. 30min solo pice by Sophy, afterwords you may join in as a 15min meditation to the tranquil music performed by musician Mathew Carrings on hanging balls with Sophy sining with her eyes closedtaping intop the meditation atpsphere. For thouse who prefer you can lay down on the beach and enjouy the relaxing sounds. </p>
        {/*<img className="gallery-pik"src={consert}></img>
        */}
-          <img className="gallery-pik"src={acro}></img>
+          <img className="gallery-pik" src={acro} alt="" ></img>
        </div>
        <div className="item item-2">
        <h3>Mystic Paradice 2021</h3>
@@ -121,7 +121,7 @@ She created the pice because she felt that the citizen in her home town in Orlan
        A newly written large scale musical for the whole family. The mellodies and lyrics are mesmorising as world famouse Andrew With has composed from his haart taulouring the pices to the skills of the singers he has hand selected from around the globe. This years star is Australias star Whitney Andrews.
        "A true performance spectical including air acrobatics" Josefine Hariss Times Magasine
        </p>
-       <img className="gallery-pik"src={castle_2}></img>
+       <img className="gallery-pik" src={castle_2} alt="" ></img>
     </div>
 
     {/*Test*/} <div className="item item-3">
@@ -133,14 +133,14 @@ She created the pice because she felt that the citizen in her home town in Orlan
     </p>
        {/*<img className="gallery-pik"src={consert}></img>
        */}
-       <img className="gallery-pik"src={cottage}></img>
+       <img className="gallery-pik" src={cottage} alt="" ></img>
        </div>
        <div className="item item-4">
        <h3>Northern Flow 2021</h3>
        <p className="img-heading">The Performers for this production are based in Ireland, Scotlland, Sweeden and Finland. The theatres are rehearsing individually and will be touring 
        theeese countries in summer 2021, ending their tour in or home bace in New York September 2021.
        </p>
-       <img className="gallery-pik"src={performances}></img>
+       <img className="gallery-pik" src={performances} alt="" ></img>
     </div>
     </div>
 
