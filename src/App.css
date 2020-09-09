@@ -1,6 +1,4 @@
-
 /*test*/
-
 .hero-content-area {
   opacity: 0;
   animation: 3s slidefade 1s forwards;
@@ -20,10 +18,10 @@ html{
   width: 100%;
 }
 p, h1, h2,h3{  
-  color: rgb(240, 204, 160);
-  color: antiquewhite;
-  filter: brightness(45%);
+ color: #716a61;
+  
 }
+.hero-text{  color: antiquewhite;}
 /*Nav*/
 nav {
   display: flex;
@@ -65,7 +63,10 @@ nav li:hover {
   }
 }
 /*Nav end*/
-
+main{
+  margin:0 auto;
+  width:70vw;
+}
 .musical-theatre-img {
   width: 100vw;
   height: 70vh;
@@ -119,21 +120,17 @@ footer{
     
 .intro-grid{
           /* background-color: lightseagreen;*/
-           margin: 0 auto;
            display:grid;
            grid-template-columns: 2fr 1fr;
            grid-template-rows: 1fr;
            grid-gap:3%;
-           width:70vw;
          padding: 50px 0px;}
 .gallery{
  /* background-color: lightseagreen;*/
-  margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap:3%;
-  width:70vw;
 }
 /*Ipad*/
 @media only screen and (max-width: 769px) {
@@ -150,7 +147,7 @@ footer{
  .intro-img{
    display: none;
   }
-/*footer{margin-bottom: 100px;}*/
+footer{margin-bottom: 100px;}
 }
 
 /*Iphone*/
@@ -240,8 +237,6 @@ img {
     color:white;
   }
 .shows-heading{
-    width: 70vw;
-  margin: 0 auto;
 border-top: 2px solid rgb(240, 204, 160);
 font-size: 2rem;
 padding-top: 2rem;
