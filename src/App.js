@@ -1,46 +1,86 @@
 import React from 'react';
 import './App.css';
-import Nav from './Nav.js';
 import Hero from './Hero.js';
-import About from './About.js';
-import Shows from './Shows.js';
+import Home from './Home.js';
+import Tikets from './Tikets.js';
 import Footer from './Footer.js';
 
-// import jag from './images/ensamble.jpg';
-// import theatreAmbasader from './images/theater-ambasader.jpg';
-// import dance from './images/dance.jpg';
-// import consert from './images/consert.jpg';
-// import composed from './images/composed.jpg';
-// import circus from './images/circus.jpg';
-// import shadow from './images/shadow-music.jpg';
-// import sidney from './images/sidney.jpg';
-// import grand from './images/grand.jpg';
-// import danceStreet from './images/danceStreet.jpg';
-// import italy from './images/italy.jpg';
-// import cello from './images/cello.jpg';
-// import bahamas from './images/Bahamas.jpg';
-// import model from './images/model.jpg';
-// import castle from './images/castle-istland.jpg';
-// import trapeze from './images/shangyou-shi-U6mlid4nor8-unsplash.jpg';
-// import sunflower from './images/blake-cheek-zwSMv0jY-1o-unsplash.jpg';
-// import castle_3 from './images/colin-watts-3blV4-86aUo-unsplash.jpg';
-// import dance_1 from './images/diego-rosa-Yyk4OmVJAyE-unsplash.jpg';  
-// import dance_2 from './images/andrei-lasc-BcbSYcn9tJg-unsplash-cut.jpg';
+import {
+   BrowserRouter as Router,
+   Switch,
+   Route,
+   Link
+ } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-   <Nav/>
-<Hero/>
-<main>
+   <Router>
+  <div className="App">
+  
+  <div className="main-nav">
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">home</Link>
+        </li>
+        <li>
+          <Link to="/tikets">tikets</Link>
+        </li>
+       
+        </ul>
+        <ul className="ul_2 ">
+        <li>
+        <Link to="/artists">artists</Link>
+      </li>
+      <li>
+      <Link to="/apply">apply</Link>
+    </li>
+      </ul>
+    </nav>
+    </div>
+    
+    {/* A <Switch> looks through its children <Route>s and
+        renders the first one that matches the current URL. */}
+    <Switch>
+    <Route path="/tikets">
+        <Tikets/>
+      </Route>
+      <Route path="/artists">
+        <Artists />
+      </Route>
+     
+      <Route path="/apply">
+      <Apply/>
+    </Route>
+      <Route path="/">
+        <Home />
+      </Route>
+    </Switch>
+   
+  </div>
+ 
+</Router>
 
-   <About/>
-<Shows/>
-
-    </main>
-    <Footer/> 
- </div>
   );
 }
+
+
+function Artists() {
+return(<div><Hero/><main><h2>Artists</h2>
+   <p>Content comming soon</p></main>
+   <Footer/>
+   </div>)
+
+;
+}
+
+
+function Apply() {
+   return(<div><Hero/><main><h2>Apply</h2>
+      <p>Content comming soon</p></main>
+      <Footer/>
+      </div>)
+  }
+
 
 export default App;

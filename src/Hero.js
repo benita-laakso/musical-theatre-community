@@ -8,9 +8,7 @@ function Hero(){
         <div className="hero">
         <img className="musical-theatre-img"src={performances} alt="musical theatre picature" />
         <div className="text-cont">
-      
         <h1 className="heading-intro hero-text">CosmoChimica</h1>
-      
         <p className="intro-p hero-text ">Music, Acting & Dance</p>
         <div className=" hero-content-area">
        <p className="intro-p small hero-text"><i>" Cosmochimica is Preforming arts at it´s best.

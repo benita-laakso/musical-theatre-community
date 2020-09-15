@@ -36,13 +36,15 @@ nav ul{
   list-style: none;
   padding: 0;
 }
-nav li {color: antiquewhite;
+nav li a {color: antiquewhite;
   margin: 0 15px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 17px;
+  text-decoration: none;
 }
-nav li:hover {
+
+nav li:hover a {
   /* font-weight: 700;*/
   color:  rgb(240, 204, 160);
 }
@@ -241,15 +243,27 @@ border-top: 2px solid rgb(240, 204, 160);
 font-size: 2rem;
 padding-top: 2rem;
 }
-{/*
+/*Convert to max width 440px
 @media only screen and (min-width: 320px){
-  .intro-grid{width:85vw;}
-
-  .gallery{  grid-template-columns: 1fr;
+  .intro-grid {
+    width:85vw;
+  }
+  .gallery {
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-  margin-bottom:40px;
-  width:85vw;}
-  footer{margin-bottom:0px;
-  margin-bottom: 0px;}
+    margin-bottom:40px;
+    width:85vw;
+  }
+  footer {
+    margin-bottom:0px;
+    margin-bottom: 0px;
+  }
 }
-*/}
+*/
+/*Tikets*/
+.price{margin-right: 20px;}
+.tiket-container{display:flex;
+  justify-content: space-between;
+  border-bottom:2px solid rgb(240, 204, 160);
+  padding-bottom: 40px;
+}

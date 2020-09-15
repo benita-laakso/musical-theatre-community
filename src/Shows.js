@@ -48,7 +48,7 @@ function Shows(){
            <img className="gallery-pik" src={cottage} alt="" ></img>
            </div>
            <div className="item item-4">
-           <h3>Northern Flow 2021</h3>
+           <h3>Northern Rythem 2021</h3>
            <p className="img-heading">The Performers for this production are based in Ireland, Scotlland, Sweeden and Finland. The theatres are rehearsing individually and will be touring 
            theeese countries in summer 2021, ending their tour in or home bace in New York September 2021.
            </p>
