@@ -8,10 +8,11 @@ function Footer() {
         <h3 className="footer-name">CosmoChimica</h3>
         <p className="footer-p">
         <div><i>Performing arts Community</i></div>
-        <br></br>
-        <div>cosmochimica@contact.com</div>
-       <div> Adress and   postcode New York</div> 
-       <div>Phone number</div></p>
+        <div className="footer-space"></div>
+        
+        <div>contact@cosmochimica.com</div>
+       <div> South Slope 11215 New York</div> 
+       <div>718-531-2898</div></p>
         </footer>
     );
 }
