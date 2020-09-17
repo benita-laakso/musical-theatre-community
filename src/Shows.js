@@ -8,11 +8,9 @@ import performances from './images/tim-gouw-tYpp-eIZH44-unsplash.jpg';
 
 function Shows(){
     return(
-
-
         <section>
         <div className="shows-heading">
-        <h2>Shows</h2></div>
+        <h2 className="shows">Shows</h2></div>
         <div className="gallery">
        <div className="item item-1">
     <h3>Tranquility 2020-2021</h3>

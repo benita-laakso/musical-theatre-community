@@ -52,22 +52,12 @@ nav li:hover a {
   display: flex;
   justify-content:flex-end;
 }
-
-@media screen and (max-width: 400px) {
-  nav {
-      justify-content: center;
-  }
-  nav li {
-      margin: 0 5px;
-  }
-  nav li  {
-      font-size: 15px;
-  }
-}
 /*Nav end*/
+
+
 main{
   margin:0 auto;
-  width:70vw;
+  width:85vw;
 }
 .musical-theatre-img {
   width: 100vw;
@@ -136,6 +126,7 @@ footer{
 }
 /*Ipad*/
 @media only screen and (max-width: 769px) {
+  html{font-size:16px;}
  .gallery{ 
    border-top:none;
   padding-top: 0em;
@@ -152,7 +143,7 @@ footer{
 footer{margin-bottom: 100px;}
 }
 
-/*Iphone*/
+
 .heading-intro{
   font-size:500% ;
 }
@@ -166,16 +157,16 @@ footer{margin-bottom: 100px;}
 
 .hero .text-cont{
   position: absolute;
-  top: 50%;
-  left: 52%;
+  top: 34%;
+  left: 55%;
   transform: translate(-50%, -50%);
   text-shadow: 2px 2px 5px black;
-  letter-spacing: 1.5px;
+ /* letter-spacing: 1.5px;*/
 }
 .heading-intro{
   text-align: center;
 /*font-size: 500%;*/
-filter: brightness(100%);/*
+/*
   color:rgb(40, 57, 32);
 text-align: center;
   font-size: 100px;
@@ -192,7 +183,7 @@ border: 10px solid goldenrod;
  /*font-size: 40px;*/
  text-align: center;
  /*color:rgb(40, 57, 32);*/
- filter: brightness(100%);
+ 
 }
 
 .main_text p{
@@ -217,9 +208,11 @@ img {
 }
 .small{
   font-size: 1.5em;
+  margin-bottom: 0em;
 }
 .mini{
   font-size:1em;
+  margin-top: 0em;
 }
 
 .footer-name{
@@ -243,27 +236,48 @@ border-top: 2px solid rgb(240, 204, 160);
 font-size: 2rem;
 padding-top: 2rem;
 }
-/*Convert to max width 440px
-@media only screen and (min-width: 320px){
-  .intro-grid {
-    width:85vw;
-  }
-  .gallery {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-bottom:40px;
-    width:85vw;
-  }
-  footer {
-    margin-bottom:0px;
-    margin-bottom: 0px;
-  }
-}
-*/
 /*Tikets*/
 .price{margin-right: 20px;}
 .tiket-container{display:flex;
   justify-content: space-between;
   border-bottom:2px solid rgb(240, 204, 160);
   padding-bottom: 40px;
+}
+
+/*Iphone*/
+@media only screen and (max-width: 440px){
+  nav li {
+    margin: 0 5px;
+}
+nav li  {
+    font-size: 15px;
+}
+  nav li a {margin:0px;}
+ .heading-intro{font-size:2.5rem;}
+ .hero .text-cont{
+ 
+  top: 38%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 5px black;
+ /* letter-spacing: 1.5px;*/
+}
+  .text-cont{
+    padding-top:115px;
+width:80%;
+}
+ .intro-grid{padding:12px 0px;}
+ .shows{margin:0px;
+padding-bottom:20px ;}
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-bottom:40px;
+    grid-gap:0;
+    
+  }
+  footer {
+    margin-bottom:0px;
+    padding: 0px 0px 20px 0px;
+  }
 }
