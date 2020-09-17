@@ -17,7 +17,8 @@ function Hero(){
        <br></br>Some of our worlds finest actors, singers and dancers preform atCosmochimica.*/}</i></p>
         <p className="intro-p mini hero-text">Anna-Bell Haistings New York Times</p>
         
-        </div></div>
+        </div>
+        </div>
       </div>
     );
 }
