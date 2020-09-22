@@ -15,13 +15,12 @@ function Shows(){
        <div className="item item-1">
     <h3>Tranquility 2020-2021</h3>
     <p className="img-heading">Tranquility
-    
     Oapen air dance and acropatics show.
-    
     Dancer Sophy Hastings is currently preforming Tranquility in Key west, Key Largo and Miami. 
-    
     She created the pice because she felt that the citizen in her home town in Orlando Florida needed a moment of escape from the currant world situation. 
-    “Inner calm and trust in life is my biggest survival tool in any trying life surcomstances. This is a state that I have learned to arrive at during my visits to the Temples in India. I wish to inspire and encourage others to to find this stat, this is why I created the pice tranquility”  New York times May 2020. Tranquility is an oapen air interactive performance. 30min solo pice by Sophy, afterwords you may join in as a 15min meditation to the tranquil music performed by musician Mathew Carrings on hanging balls with Sophy sining with her eyes closedtaping intop the meditation atpsphere. For thouse who prefer you can lay down on the beach and enjouy the relaxing sounds. </p>
+    “Inner calm and trust in life is my biggest survival tool in any trying life surcomstances. This is a state that I have learned to arrive at during my visits to the Temples in India. 
+    I wish to inspire and encourage others to to find this stat, this is why I created the pice tranquility”  New York times May 2020. Tranquility is an oapen air interactive performance. 30min solo pice by Sophy, afterwords you may join in as a 15min meditation to the tranquil music performed by musician Mathew Carrings on hanging balls with Sophy sining with her eyes closedtaping intop the meditation atpsphere. For thouse who prefer you can lay down on the beach and enjouy the relaxing sounds. 
+    </p>
            
               <img className="gallery-pik" src={acro} alt="" ></img>
            </div>

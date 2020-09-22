@@ -1,0 +1,15 @@
+
+.show{
+    padding-top: 100px;
+
+}
+.show-item{
+    
+        /* background-color: lightseagreen; */
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 5%;
+    
+}
+
+

@@ -1,25 +1,20 @@
-import React from 'react';
-import './App.css';
-import performances from './images/tim-gouw-tYpp-eIZH44-unsplash.jpg';
+import React from "react";
+import "./App.css";
+import Navbar from "./Navbar";
 
-
-function Hero(){
-    return(
-        <div className="hero">
-        <img className="musical-theatre-img"src={performances} alt="musical theatre picature" />
-        <div className="text-cont">
-        <h1 className="heading-intro hero-text">CosmoChimica</h1>
-        <p className="intro-p hero-text ">
-        Music, Acting & Dance</p>
-        <div className=" hero-content-area">
-       <p className="intro-p small hero-text"><i>"Preforming arts at its best."
-       {/*
-       <br></br>Some of our worlds finest actors, singers and dancers preform atCosmochimica.*/}</i></p>
-        <p className="intro-p mini hero-text">Anna-Bell Haistings New York Times</p>
-        
-        </div>
-        </div>
+function Hero() {
+  return (
+    <div className="hero">
+      <Navbar />
+      <div className="text-cont">
+        <h1 className="hero-h1">CosmoChimica</h1>
+        <h2 className="hero-h2">Music, Acting & Dance</h2>
+        <blockquote className="hero-blockquote">
+            <p>”Preforming arts at its best”</p>
+            <span>Anna-Bell Haistings New York Times</span>
+        </blockquote>
       </div>
-    );
+    </div>
+  );
 }
 export default Hero;
