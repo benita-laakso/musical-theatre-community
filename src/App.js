@@ -5,7 +5,9 @@ import Home from "./Home.js";
 import Tikets from "./Tikets.js";
 import Footer from "./Footer.js";
 import Show from "./Show.js";
-
+import Show2 from "./Show2.js";
+import Show3 from "./Show3.js";
+import Show4 from "./Show4.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -22,8 +24,8 @@ function App() {
             <Artists />
           </Route>
 
-          <Route path="/apply">
-            <Apply />
+          <Route path="/shows">
+            <ShowDescription />
           </Route>
           <Route path="/">
             <Home />
@@ -38,21 +40,24 @@ function Artists() {
   return (
     <div>
       <Hero />
-      <main>
-        <h2>Artists</h2>
-        <p>Content comming soon</p>
-      </main>
+     <Show/>
       <Footer />
     </div>
   );
 }
 
-function Apply() {
+function ShowDescription() {
   return (
     <div>
-      <main>
-        <Show />
-      </main>
+    <Hero/>
+    <main>
+    <div className="shows-heading">
+    <h2 className="shows">Shows</h2></div>
+    <Show/>
+        <Show2/>
+        <Show3/>
+        <Show4/>
+        </main>
       <Footer />
     </div>
   );

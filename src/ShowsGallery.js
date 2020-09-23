@@ -6,7 +6,7 @@ import acro from './images/alice-naar-c_c5hd-9iwY-unsplash.jpg';
 import castle_2 from './images/artem-sapegin-XGDBdSQ70O0-unsplash.jpg'; 
 import performances from './images/tim-gouw-tYpp-eIZH44-unsplash.jpg';
 
-function Shows(){
+function ShowsGallery(){
     return(
         <section>
         <div className="shows-heading">
@@ -55,4 +55,4 @@ function Shows(){
         </section>
     );
 }
-export default Shows;
+export default ShowsGallery;

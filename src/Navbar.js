@@ -18,8 +18,9 @@ function Navbar() {
                 <Link to="/artists">artists</Link>
                 </li>
                 <li>
-                <Link to="/apply">apply</Link>
+                <Link to="/shows">shows</Link>
                 </li>
+                
             </ul>
             </nav>
     );

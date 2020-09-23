@@ -3,7 +3,17 @@
   opacity: 0;
   animation: 3s slidefade 1s forwards;
 }
-
+.hero {
+  background-image: url(/static/media/tim-gouw-tYpp-eIZH44-unsplash.47d525e7.jpg);
+  background-size: cover;
+   min-height: 90vh;
+ background-position: bottom;
+ /*Test for otyher pages*/
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 @keyframes slidefade {
   100% {
     opacity: 1;
@@ -27,6 +37,7 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
+  /*background-color: rgb(240, 204, 160);*/
 }
 nav ul {
   display: flex;
@@ -133,6 +144,7 @@ footer {
   html {
     font-size: 16px;
   }
+  .hero{ min-height: 38vh;}
   .gallery {
     border-top: none;
     padding-top: 0em;
@@ -155,15 +167,7 @@ footer {
   width: 90%;
   border-radius: 8px;
 }
-.hero {
-  background-image: url(/static/media/tim-gouw-tYpp-eIZH44-unsplash.47d525e7.jpg);
-  background-size: cover;
-  background-position: bottom;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 .heading-intro {
   /*font-size: 500%;*/
@@ -297,8 +301,10 @@ img {
   }
   .shows {
     margin: 0px;
-    padding-bottom: 20px;
+    
   }
+  .shows-heading{padding-top: 10px;}
+  .show-img{padding-bottom: 60px;}
   .gallery {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;

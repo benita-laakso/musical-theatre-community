@@ -3,7 +3,7 @@ import './App.css';
 
 import Hero from './Hero.js';
 import About from './About.js';
-import Shows from './Shows.js';
+import ShowsGallery from './ShowsGallery.js';
 import Footer from './Footer.js';
 
 
@@ -13,7 +13,7 @@ function Home() {
 <Hero/>
 <main>
    <About/>
-<Shows/>
+<ShowsGallery/>
     </main>
     <Footer/>
  </div>
