@@ -1,0 +1,17 @@
+.hero2 {
+    min-height: 37vh;
+    background-position: center;
+   }
+
+@media only screen and (max-width: 440px) {
+    .hero2 {
+        background-size: unset;
+        background-position: right;
+       }
+       .hero2-h1{
+           font-size: 2rem;
+       }
+       .hero2-h2{
+        font-size: 1rem;
+    }
+}

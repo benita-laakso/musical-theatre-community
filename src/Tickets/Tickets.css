@@ -1,0 +1,19 @@
+.price {
+    margin-right: 20px;
+  }
+  .ticket-container {
+    display: flex;
+  justify-content: space-between;
+   /* padding-bottom: 40px;*/
+    /*New css*/
+    max-width: 645px;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width: 440px){
+    .price{display:block;}
+    .ticket-container {
+   
+      padding-bottom: 40px;
+    
+    }
+  }
