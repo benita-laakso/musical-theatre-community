@@ -3,8 +3,6 @@ import Show from "../Show/Show.js";
 import data from "../showData.js";
 
 function ShowDescription() {
-
-
     return (
       <div>
         <Show data={data[0]}/>

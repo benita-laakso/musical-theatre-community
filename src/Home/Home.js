@@ -8,8 +8,8 @@ import ShowsGallery from '../ShowsGallery/ShowsGallery.js';
 function Home() {
   return (
     <main>
-     <About/>
-    <ShowsGallery/>
+      <About/>
+      <ShowsGallery/>
     </main>
 
   );

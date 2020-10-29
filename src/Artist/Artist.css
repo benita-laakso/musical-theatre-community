@@ -11,8 +11,14 @@
 .artist-container p:last-child{
     padding-bottom: 2rem;
 }
-
-
+.no-margin-bottom{
+    margin-bottom:0;
+}
+.bold{font-weight: bold;
+}
+.about-artist{
+    margin-top: 0;
+}
 @media only screen and (max-width: 769px){
     .artist-img {
         width: 75%;
@@ -39,7 +45,9 @@
         grid-template-columns: 1fr;
         grid-gap: 0%;
 }
-
+.about-artist{
+    margin-top: 16px;
+}
 .artist-img{ 
     width: 75%;
    padding-bottom: 0px;

@@ -1,7 +1,9 @@
 .show {
   padding-top: 100px;
 }
-
+.start-p {
+  margin-top: 0;
+}
 .show-item {
   /* background-color: lightseagreen; */
   display: grid;

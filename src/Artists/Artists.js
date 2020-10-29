@@ -1,14 +1,13 @@
 import React from "react";
-import Artist1 from "../Artist/Artist1.js";
-import Artist2 from "../Artist/Artist2.js";
-import Artist3 from "../Artist/Artist3.js";
+import Artist from "../Artist/Artist.js";
+import data from "../ArtistData.js";
 
 function Artists() {
     return (
         <main>
-          <Artist1 />
-          <Artist2 />
-          <Artist3 />
+          {data.map( (el, i) => {
+            return (<Artist key={i} data={el}/>)
+          })}
         </main>
     );
   }

@@ -16,8 +16,8 @@ function ShowsGallery() {
 
         {data.map((el, index) => {
           return (
-            <Link to={el.link}>
-              <div key={index}>
+            <Link key={index} to={el.link}>
+              <div>
                 <h3>{el.previewHeading}</h3>
                 <img className="picature" src={el.image} alt=""></img>
               </div>
