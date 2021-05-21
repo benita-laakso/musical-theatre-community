@@ -10,12 +10,13 @@ function About() {
           Musical Theatre Company
         </h2>
         <p>
+          CosmoChimica is an international Musical Theatre Company.
           The group collaborates on a full blown newly written musical every
-          year as well as other ensemble performances. Cosmochimica tours around
+          year, as well as other ensemble performances. Cosmochimica tours around
           the word in different constellation always returning to the home base
           in New York for rehearsals of the yearly Musical. The yearly musical
           is a unique event as it always is a world premier. The performers at
-          Cosmochimica that come from around the globe, sharing their passion
+          Cosmochimica come from around the globe, sharing their passion
           for music, theatre and dance.</p>
           <p> Valentina Garcia runs the theater,
           she has hade numerouse roles  since the theatre oapend in 2001. She has functioned as singer, actress, composer, dances and choreographer. {" "}
