@@ -46,24 +46,29 @@ const data = [
         "previewHeading": "Mystic Paradise 2021",
         "showDescription": [
             {
-                "type": "paragraph",
-                "text": "A newly written large scale musical for the whole family. World famous Andrew With has composed mesmerising melodies and lyrics for hand selected singer from around the globe. This years leading role will be played by Australias star Whitney Andrews."
-            },
-            {
                 "type": "blockquote",
                 "text": "“A true performance spectacle including air acrobatics”"
             },
             {
                 "type": "source",
                 "text": "Josefine Hariss Times Magasine"
-            },
-            {
-                "type": "h4",
-                "text": "Nature and tranquil"
-            },
-            {
+            },{
                 "type": "paragraph",
-                "text": "Sophy has composed meditative songs that she sings live accompanied by musician Mathew Carrings creating an ambient atmosphere with hang drums. The audience is invited to sit and meditate or to lay down on their yoga mats and relax."
+                "text": "This year you will find our stage transformed into a mystical space in nature. World famous gardener Alexandro Gonzales has designed the set with live trees and plants. The biggest challengen for the set design is the massive body of water that is on stage through out the performance."
+            },
+            
+          
+            {
+                "type": "blockquote",
+                "text": ' "Welcome to Mysstic Grove, here you can be who you truly are." '
+            },
+            {
+                "type": "source",
+                "text": "Gabriel the angel gate Gurdian"
+            },
+           {
+                "type": "paragraph",
+                "text": "A newly written fantasy musical for the whole family. World famous Andrew With has composed mesmerising melodies and lyrics for hand selected singer from around the globe. This years leading role will be played by Australias star Whitney Andrews."
             }
         ],
         "image": castle_2
